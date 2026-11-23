@@ -249,30 +249,6 @@
     });
   }
 
-  // ------------------------------------------------------- atraso de voo --
-  function voo(form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var h = num(form.horas.value), tipo = form.querySelector('[name="tipo"]:checked').value, vooT = form.querySelector('[name="voo"]:checked').value,
-        noite = form.querySelector('[name="noite"]:checked').value === 'sim', casa = form.casa.checked;
-      erro(form, 'horas', h >= 0); if (!(h >= 0)) return;
-      var rec = {}; form.querySelectorAll('[name="rec"]:checked').forEach(function (c) { rec[c.value] = 1; });
-      var itens = [];
-      function item(cond, nome, chave, desc) { if (cond) itens.push({ nome: nome, ok: !!rec[chave], desc: desc }); }
-      item(h >= 1, 'Comunicação', 'comunicação', 'a partir de 1 hora de espera');
-      item(h >= 2, 'Alimentação', 'alimentação', 'a partir de 2 horas de espera');
-      item(h >= 4 && noite && !casa, 'Hospedagem', 'hospedagem', 'a partir de 4 horas, com pernoite');
-      item(h >= 4 && noite, 'Traslado', 'traslado', casa ? 'para casa e de volta, já que você estava na sua cidade' : 'entre aeroporto e hospedagem');
-      item(tipo !== 'atraso' || h > 4, 'Escolha entre reacomodação, reembolso integral ou outra modalidade', 'escolha', 'art. 21');
-      var html = itens.length ? itens.map(function (x) { return linha(x.nome + ' <small style="color:var(--cinza)">(' + x.desc + ')</small>', x.ok ? 'recebido' : 'não recebido'); }).join('') : '<p class="resultado__nota">Com menos de 1 hora de espera em atraso, a Resolução 400 não prevê assistência material.</p>';
-      if (tipo === 'preterição') html += linha('Compensação imediata por embarque negado', vooT === 'internacional' ? '500 DES' : '250 DES');
-      form.querySelector('[data-saida="linhas"]').innerHTML = html;
-      mostrar(form.querySelector('.resultado'));
-      var faltou = itens.filter(function (x) { return !x.ok; }).map(function (x) { return x.nome.toLowerCase(); });
-      prepararEnvio(form, 'Olá, equipe IVO. Usei a ferramenta de atraso de voo no site.\n\nProblema: ' + tipo + ' em voo ' + vooT + ', com ' + h + ' hora(s) de espera' + (noite ? ' e pernoite' : '') + '.' + (faltou.length ? '\nNão recebi: ' + faltou.join(', ') + '.' : '\nRecebi a assistência prevista.') + '\n\nGostaria de conversar sobre o caso.');
-    });
-  }
-
   // -------------------------------------------------- organize seu caso --
   function diagnostico(form) {
     var passos = ['area', 'situacao', 'quando', 'reclamou', 'urgencia', 'docs', 'contato', 'fim'];
@@ -324,6 +300,6 @@
     ir(0);
   }
 
-  var mapa = { 'baixa-da-negativacao': baixa, 'juros-do-emprestimo': juros, 'reajuste-do-plano': reajuste, 'restituicao-em-dobro': restituicao, 'entrega-do-imovel': imovel, 'atraso-de-voo': voo, 'organize-seu-caso': diagnostico };
+  var mapa = { 'baixa-da-negativacao': baixa, 'juros-do-emprestimo': juros, 'reajuste-do-plano': reajuste, 'restituicao-em-dobro': restituicao, 'entrega-do-imovel': imovel, 'organize-seu-caso': diagnostico };
   document.querySelectorAll('[data-ferramenta]').forEach(function (f) { var fn = mapa[f.getAttribute('data-ferramenta')]; if (fn) fn(f); });
 })();

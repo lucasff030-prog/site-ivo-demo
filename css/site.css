@@ -253,13 +253,14 @@ body[data-tema="escuro"] .wa-flutuante { background: var(--areia); color: var(--
   color: var(--areia); opacity: calc(0.95 - var(--sc-p, 0) * 0.45);
   transform: translateY(calc(var(--sc-p, 0) * -10vh)) scale(calc(1 - var(--sc-p, 0) * 0.08));
   transform-origin: 50% 0;
+  will-change: transform, opacity;
 }
 .abertura__letras svg { width: 100%; height: auto; }
 .abertura__catedral {
   right: clamp(2rem, 9vw, 10rem); bottom: -1px; height: 76vh; width: auto; max-width: none;
   transform-origin: 50% 100%;
   transform: scale(calc(1 + var(--sc-p, 0) * 0.24));
-  filter: drop-shadow(0 -10px 40px rgba(11,31,26,.6));
+  will-change: transform;
 }
 .abertura__catedral img { height: 100%; width: auto; max-width: none; }
 .abertura__marquise {
@@ -300,7 +301,7 @@ body[data-tema="escuro"] .wa-flutuante { background: var(--areia); color: var(--
 .principios__palco { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); background: var(--verde-noite); }
 .principios__imagem { position: relative; overflow: hidden; order: 2; }
 .principios__imagem picture, .principios__imagem img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.principios__imagem img { transform: scale(calc(1.15 - var(--sc-p, 0) * 0.15)) translateY(calc(var(--sc-p, 0) * -2%)); }
+.principios__imagem img { will-change: transform; transform: scale(calc(1.15 - var(--sc-p, 0) * 0.15)) translateY(calc(var(--sc-p, 0) * -2%)); }
 .principios__imagem::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--verde-noite) 0%, transparent 30%); }
 .principios__texto { position: relative; display: grid; align-content: center; padding: var(--topo-h) var(--sc-gutter) 3rem; }
 .principios__linhas { position: relative; min-height: 15rem; }
@@ -437,7 +438,7 @@ fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: .6rem; }
 /* ---- 8 · chegada ------------------------------------------------------- */
 .chegada__palco { background: var(--verde-noite); }
 .chegada__foto { position: absolute; inset: 0; }
-.chegada__foto img { width: 100%; height: 100%; object-fit: cover; transform: scale(calc(1.14 - var(--sc-p, 0) * 0.14)); }
+.chegada__foto img { width: 100%; height: 100%; object-fit: cover; will-change: transform; transform: scale(calc(1.14 - var(--sc-p, 0) * 0.14)); }
 .chegada__sombra { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(11,31,26,.92) 0%, rgba(11,31,26,.55) 45%, rgba(11,31,26,.15) 75%); }
 .chegada__texto { position: absolute; left: var(--sc-gutter); right: var(--sc-gutter); bottom: clamp(2.5rem, 9vh, 6rem); display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 2rem 4rem; align-items: end; }
 .chegada__texto h2 { font-size: var(--sc-t-3xl); }
@@ -682,6 +683,17 @@ fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: .6rem; }
 .cabeca { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 1.5rem 3rem; margin-bottom: clamp(2rem, 4vw, 3.5rem); }
 .cabeca h2 { font-size: var(--sc-t-3xl); }
 @media (max-width: 760px) { .cabeca { grid-template-columns: 1fr; } }
+
+/* ------------------------------------------------ celular: menos peso -- */
+/* No iPhone, camadas que cobrem a tela inteira, máscaras e filtros obrigam a
+   redesenhar a cada quadro da rolagem. No celular ficam de fora. */
+@media (max-width: 860px), (hover: none) and (pointer: coarse) {
+  .sc-grain, .abertura__marquise, .abertura__estrelas, .abertura__legenda { display: none !important; }
+  .abertura__ceu { inset: 0; transform: none; background: radial-gradient(70% 45% at 60% 35%, rgba(169,199,187,.16), transparent 70%), linear-gradient(180deg, #0B1F1A 0%, #10302A 100%); }
+  .portal__cidade img { transform: none; }
+  .portal__cidade::after { background: rgba(11,31,26,.55); }
+  .peca__foto img, .lista-artigos .la__titulo { transition: none; }
+}
 
 /* ------------------------------------------------------ menos movimento -- */
 @media (prefers-reduced-motion: reduce) {

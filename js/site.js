@@ -10,6 +10,9 @@
   var suave = function (x) { x = clamp(x, 0, 1); return x * x * (3 - 2 * x); };
   var lerp = function (a, b, t) { return a + (b - a) * t; };
 
+  // No celular, atos mais curtos (menos tempo preso em cada cena).
+  var movel = matchMedia('(max-width: 860px)').matches;
+  if (movel) document.querySelectorAll('[data-span-movel]').forEach(function (el) { el.setAttribute('data-sc-span', el.getAttribute('data-span-movel')); });
   if (window.ScrollCraft) window.ScrollCraft.mount(document.body);
 
   // ------------------------------------------------------------------ topo --
@@ -75,6 +78,7 @@
       grupo: svgEl.querySelector('#portal-grupo'),
       porta: svgEl.querySelector('#portal-porta'),
       imagem: svgEl.querySelector('#portal-imagem'),
+      movel: movel,
       tracos: svgEl.querySelectorAll('.portal__traco'),
       tinta: svgEl.querySelector('.portal__tinta-g'),
       fora: portal.querySelector('.portal__abertura-texto'),
@@ -91,6 +95,8 @@
       P.s0 = Math.min(P.h * 0.62, P.w * 0.7) / 76.75;
       P.s1 = Math.hypot(P.w, P.h) / 2 / 5.2;
     };
+    // No celular, a foto do escritório dentro do monograma vai em tamanho menor.
+    if (movel) P.imagem.setAttribute('href', P.imagem.getAttribute('href').replace('escritorio-g.jpg', 'escritorio.jpg'));
     P.medir = medir;
     medir();
     window.addEventListener('resize', medir);
@@ -111,10 +117,10 @@
     P.porta.setAttribute('transform', t);
     for (var i = 0; i < P.tracos.length; i++) P.tracos[i].style.strokeDashoffset = String(1 - (reduz ? 1 : desenho));
     P.tinta.style.opacity = reduz ? 1 : clamp((p - 0.1) / 0.12, 0, 1).toFixed(3);
-    var esc = 1.12 - e2 * 0.12;
-    P.imagem.setAttribute('transform', 'translate(' + (P.w / 2) + ' ' + (P.h / 2) + ') scale(' + esc.toFixed(4) + ') translate(' + (-P.w / 2) + ' ' + (-P.h / 2) + ')');
+    var esc = P.movel ? 1 : 1.12 - e2 * 0.12;
+    if (!P.movel || !P.imagemFixa) { P.imagemFixa = P.movel; P.imagem.setAttribute('transform', 'translate(' + (P.w / 2) + ' ' + (P.h / 2) + ') scale(' + esc.toFixed(4) + ') translate(' + (-P.w / 2) + ' ' + (-P.h / 2) + ')'); }
     var dentro = reduz ? 1 : clamp((p - 0.76) / 0.12, 0, 1);
-    P.fora.style.opacity = reduz ? 0 : (1 - clamp((p - 0.18) / 0.12, 0, 1)).toFixed(3);
+    if (P.fora) P.fora.style.opacity = reduz ? 0 : (1 - clamp((p - 0.18) / 0.12, 0, 1)).toFixed(3);
     P.dentro.style.opacity = dentro.toFixed(3);
     P.dentro.style.transform = 'translateY(' + ((1 - dentro) * 24).toFixed(1) + 'px)';
     P.dentro.style.visibility = dentro > 0.01 ? 'visible' : 'hidden';
