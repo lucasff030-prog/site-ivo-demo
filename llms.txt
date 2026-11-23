@@ -1,0 +1,37 @@
+# IVO Advocacia e Consultoria Jurídica
+
+> Escritório de advocacia e consultoria jurídica no Lago Sul, em Brasília (DF). Atendimento com hora marcada, presencial ou por videochamada, para pessoas e empresas.
+
+Endereço: SHIS QI 9, Conjunto 15, Casa 3, Lago Sul, Brasília - DF
+Contato: (61) 0000-0000 · contato@advocaciaivo.adv.br
+
+## Áreas de atuação
+- [Direito Bancário](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-bancario/): Contratos, descontos e cobranças de bancos e financeiras, lidos com calma e com a lei na mão.
+- [Direito do Consumidor](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-do-consumidor/): Relações de consumo em que a balança costuma pender para um lado só.
+- [Direito à Saúde](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-a-saude/): Quando o plano de saúde diz não, cada dia conta.
+- [Direito Imobiliário](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-imobiliario/): Compra, venda, construção e condomínio, com contrato bem lido antes da assinatura.
+- [Direito Aéreo](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-aereo/): Atrasos, cancelamentos e bagagens, à luz das regras da ANAC.
+- [Responsabilidade Civil](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/responsabilidade-civil/): Quando alguém causa um dano, a lei define quem responde e como.
+- [Consultoria e Contratos](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/consultoria-e-contratos/): O melhor processo é o que não precisa existir.
+
+## Ferramentas
+- [Organize seu caso](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/organize-seu-caso/): Em poucos cliques, o seu relato fica pronto para a primeira conversa com a equipe.
+- [Juros do empréstimo × média do Banco Central](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/juros-do-emprestimo/): Descubra a taxa real do seu contrato e compare com a média de mercado do mês em que ele foi feito.
+- [Conferência do reajuste do plano de saúde](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/reajuste-do-plano/): Calcule o percentual aplicado no boleto e compare com o teto da ANS para planos individuais.
+- [Soma de cobranças indevidas (art. 42 do CDC)](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/restituicao-em-dobro/): Some as cobranças que você contesta e veja como a regra da devolução em dobro se aplica a cada período.
+- [Prazo de entrega do imóvel na planta](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/entrega-do-imovel/): Descubra a data limite com a tolerância de 180 dias e quantos meses de atraso já se passaram.
+- [Atraso de voo: o que a companhia devia oferecer](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/atraso-de-voo/): Informe o tipo de problema e o tempo de espera. Veja a assistência prevista pela Resolução 400 da ANAC.
+- [Prazo para tirar o nome do cadastro](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/baixa-da-negativacao/): Paguei a dívida: até quando o credor deve pedir a baixa? Cinco dias úteis, conforme a Súmula 548.
+
+## Artigos
+- [Desconto de empréstimo consignado que eu não fiz: o que fazer](https://lucasff030-prog.github.io/site-ivo-demo/artigos/emprestimo-consignado-que-nao-fiz/): Apareceu um desconto de consignado que você não reconhece no contracheque ou no benefício do INSS? Veja como conferir, o que guardar e quais caminhos a lei oferece.
+- [Paguei a dívida e meu nome continua negativado: qual é o prazo](https://lucasff030-prog.github.io/site-ivo-demo/artigos/nome-negativado-depois-de-pagar/): Depois de quitar a dívida, o credor tem cinco dias úteis para pedir a retirada do seu nome dos cadastros. Entenda a regra e o que fazer.
+- [O plano de saúde negou cobertura: o que fazer, passo a passo](https://lucasff030-prog.github.io/site-ivo-demo/artigos/plano-de-saude-negou-cobertura/): Cirurgia, exame ou medicamento negado pelo plano? Veja o que pedir por escrito, os documentos e o que diz a lei sobre urgência, carência e rol da ANS.
+- [Reajuste do plano de saúde: como conferir se o aumento está correto](https://lucasff030-prog.github.io/site-ivo-demo/artigos/reajuste-do-plano-de-saude-como-conferir/): Reajuste anual, por faixa etária ou de plano coletivo: entenda as regras, o teto da ANS para planos individuais e como fazer a conta do percentual aplicado.
+- [Atraso na entrega do imóvel na planta: a tolerância de 180 dias](https://lucasff030-prog.github.io/site-ivo-demo/artigos/atraso-na-entrega-de-imovel-na-planta/): A construtora pode atrasar a entrega até 180 dias, se o contrato prever. Depois disso, a lei dá ao comprador duas opções. Entenda a regra do art. 43-A da Lei 4.591/1964.
+- [Voo atrasado ou cancelado: a assistência que a companhia deve oferecer](https://lucasff030-prog.github.io/site-ivo-demo/artigos/voo-atrasado-ou-cancelado-assistencia/): Comunicação, alimentação, hospedagem, reacomodação e reembolso: veja o que a Resolução 400 da ANAC garante em cada etapa do atraso e o que guardar para reclamar depois.
+
+## Páginas
+- [O Escritório](https://lucasff030-prog.github.io/site-ivo-demo/escritorio/)
+- [Profissionais](https://lucasff030-prog.github.io/site-ivo-demo/profissionais/)
+- [Contato](https://lucasff030-prog.github.io/site-ivo-demo/contato/)

@@ -1,0 +1,21 @@
+{
+ "name": "IVO Advocacia e Consultoria Jurídica",
+ "short_name": "IVO Advocacia",
+ "lang": "pt-BR",
+ "start_url": "/site-ivo-demo/",
+ "display": "standalone",
+ "background_color": "#0F2A23",
+ "theme_color": "#0F2A23",
+ "icons": [
+  {
+   "src": "/site-ivo-demo/favicon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  },
+  {
+   "src": "/site-ivo-demo/icone-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}
