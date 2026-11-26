@@ -1,25 +1,33 @@
 # IVO Advocacia e Consultoria Jurídica
 
-> Escritório de advocacia e consultoria jurídica no Lago Sul, em Brasília (DF). Atendimento com hora marcada, presencial ou por videochamada, para pessoas e empresas.
+> Escritório de advocacia no Lago Sul, em Brasília (DF). Contencioso cível e consultoria para pessoas e empresas, com atuação no TJDFT e nos tribunais superiores. Atendimento com hora marcada, presencial ou por videoconferência. O site mantém calculadoras gratuitas com dados públicos (ANS, Banco Central, INSS, ANEEL).
 
 Endereço: SHIS QI 9, Conjunto 15, Casa 3, Lago Sul, Brasília - DF
-Contato: (61) 0000-0000 · contato@advocaciaivo.adv.br
+Contato: contato@advocaciaivo.adv.br
 
 ## Áreas de atuação
-- [Direito Bancário](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-bancario/): Contratos, descontos e cobranças de bancos e financeiras, lidos com calma e com a lei na mão.
-- [Direito do Consumidor](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-do-consumidor/): Relações de consumo em que a balança costuma pender para um lado só.
-- [Direito à Saúde](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-a-saude/): Quando o plano de saúde diz não, cada dia conta.
-- [Direito Imobiliário](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-imobiliario/): Compra, venda, construção e condomínio, com contrato bem lido antes da assinatura.
-- [Responsabilidade Civil](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/responsabilidade-civil/): Quando alguém causa um dano, a lei define quem responde e como.
-- [Consultoria e Contratos](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/consultoria-e-contratos/): O melhor processo é o que não precisa existir.
+- [Direito Bancário](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-bancario/): Empréstimos, consignados, cartões e cobranças de bancos e financeiras.
+- [Direito do Consumidor](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-do-consumidor/): Cobranças indevidas, negativação, serviços essenciais e defeitos de produtos e serviços.
+- [Direito à Saúde](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-a-saude/): Negativas de cobertura, reajustes, demora no atendimento e cancelamento de planos de saúde.
+- [Direito Imobiliário](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/direito-imobiliario/): Imóveis na planta, distrato, compra e venda, locação e condomínio.
+- [Responsabilidade Civil](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/responsabilidade-civil/): Reparação de danos materiais e morais, acidentes, seguros e responsabilidade do Estado.
+- [Consultoria e Contratos](https://lucasff030-prog.github.io/site-ivo-demo/atuacao/consultoria-e-contratos/): Contratos, notificações, pareceres e adequação à LGPD para pessoas e empresas.
 
-## Ferramentas
-- [Organize seu caso](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/organize-seu-caso/): Em poucos cliques, o seu relato fica pronto para a primeira conversa com a equipe.
-- [Juros do empréstimo × média do Banco Central](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/juros-do-emprestimo/): Descubra a taxa real do seu contrato e compare com a média de mercado do mês em que ele foi feito.
-- [Conferência do reajuste do plano de saúde](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/reajuste-do-plano/): Calcule o percentual aplicado no boleto e compare com o teto da ANS para planos individuais.
-- [Soma de cobranças indevidas (art. 42 do CDC)](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/restituicao-em-dobro/): Some as cobranças que você contesta e veja como a regra da devolução em dobro se aplica a cada período.
-- [Prazo de entrega do imóvel na planta](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/entrega-do-imovel/): Descubra a data limite com a tolerância de 180 dias e quantos meses de atraso já se passaram.
-- [Prazo para tirar o nome do cadastro](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/baixa-da-negativacao/): Paguei a dívida: até quando o credor deve pedir a baixa? Cinco dias úteis, conforme a Súmula 548.
+## Ferramentas (calculadoras gratuitas)
+- [Reajuste do plano de saúde](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/reajuste-do-plano/): Calcule o reajuste do plano de saúde: informe a mensalidade antes e depois do aumento e compare com o limite da ANS do período, já incluído na calculadora.
+- [Prazo máximo de atendimento do plano](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/prazo-do-plano/): Consulta, exame, terapia ou cirurgia: calcule o prazo máximo que o plano de saúde tem para garantir o atendimento, conforme a Resolução Normativa 566/2022 da ANS.
+- [Carência do plano de saúde](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/carencia-do-plano/): Calcule a carência do plano de saúde: 24 horas para urgência e emergência, 180 dias para os demais casos e 300 dias para parto, conforme a Lei 9.656/1998.
+- [Descontos que você não autorizou](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/descontos-nao-autorizados/): Consignado, cartão RMC ou associação que você não contratou? Some os descontos no benefício do INSS, no salário ou na conta e veja a regra da devolução em dobro.
+- [Limite de descontos no benefício do INSS](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/margem-consignavel/): Calcule a margem consignável do benefício do INSS: compare os descontos de empréstimo e de cartão consignado (RMC e RCC) com o limite de 45% fixado em lei.
+- [Juros do empréstimo e média do Banco Central](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/juros-do-emprestimo/): Calcule a taxa real do seu empréstimo e compare com a média do Banco Central para o mesmo tipo de crédito (pessoal, consignado, veículo) no mês da contratação.
+- [Conta de luz acima do normal](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/conta-de-luz/): Conta de energia muito acima do normal ou cobrança de recuperação de consumo? Compare o consumo em kWh com a média dos meses anteriores, que está no histórico da fatura.
+- [Corte de energia por conta atrasada](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/corte-de-energia/): Corte de energia por falta de pagamento: confira o aviso prévio de 15 dias, o limite de 90 dias do vencimento e os dias em que o corte é proibido, conforme a ANEEL.
+- [Soma de cobranças indevidas](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/restituicao-em-dobro/): Some as cobranças indevidas que você pagou e veja como a regra da devolução em dobro do art. 42 do Código de Defesa do Consumidor se aplica a cada período.
+- [Prazo para o nome sair do cadastro depois do pagamento](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/baixa-da-negativacao/): Pagou a dívida e o nome continua negativado? Calcule a data limite de cinco dias úteis para o credor pedir a baixa do registro, conforme a Súmula 548 do STJ.
+- [Prazo máximo da negativação](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/divida-antiga/): Calcule o prazo máximo de cinco anos para o nome ficar no Serasa, SPC ou Boa Vista por uma dívida, contado do vencimento (CDC, art. 43, § 1º, e Súmula 323 do STJ).
+- [Prazo de entrega do imóvel na planta](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/entrega-do-imovel/): Calcule a data limite de entrega do imóvel na planta com a tolerância de 180 dias do art. 43-A da Lei 4.591/1964 e veja quantos meses de atraso já se passaram.
+- [Distrato do imóvel na planta](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/distrato-do-imovel/): Desistiu do imóvel na planta ou a construtora atrasou? Calcule quanto a Lei 13.786/2018 permite reter (25% ou 50%) e o prazo para a devolução.
+- [Organize seu caso](https://lucasff030-prog.github.io/site-ivo-demo/ferramentas/organize-seu-caso/): Organize o seu caso em sete passos: área, situação, datas e documentos. O resumo sai pronto para enviar à equipe da IVO Advocacia pelo WhatsApp.
 
 ## Artigos
 - [Desconto de empréstimo consignado que eu não fiz: o que fazer](https://lucasff030-prog.github.io/site-ivo-demo/artigos/emprestimo-consignado-que-nao-fiz/): Apareceu um desconto de consignado que você não reconhece no contracheque ou no benefício do INSS? Veja como conferir, o que guardar e quais caminhos a lei oferece.
@@ -30,5 +38,5 @@ Contato: (61) 0000-0000 · contato@advocaciaivo.adv.br
 
 ## Páginas
 - [O Escritório](https://lucasff030-prog.github.io/site-ivo-demo/escritorio/)
-- [Profissionais](https://lucasff030-prog.github.io/site-ivo-demo/profissionais/)
+- [Equipe](https://lucasff030-prog.github.io/site-ivo-demo/profissionais/): Mateus Ivo, advogado (OAB/DF nº 89.193); João Roberto de Amorim Malheiro, assessor jurídico
 - [Contato](https://lucasff030-prog.github.io/site-ivo-demo/contato/)
